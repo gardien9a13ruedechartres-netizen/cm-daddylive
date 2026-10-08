@@ -1,0 +1,41 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecteur vidéo</title>
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+        }
+
+        iframe {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe
+        src="https://gomstream.xyz/live/stream-790.php"
+        width="100%"
+        height="600"
+        sandbox="allow-scripts allow-forms allow-same-origin"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        style="border: 0;"
+    ></iframe>
+</body>
+</html>
+```
